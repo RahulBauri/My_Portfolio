@@ -19,9 +19,9 @@ const Info = () => {
         <div className='bg-gray-600 w-full h-[1px] mt-4'></div>
       </div>
       <div className='col-span-4 grid h-full grid-rows-[50%_50%] gap-8'>
-        <div className='px-4 py-1'>
+        <div className='px-4 py-4'>
           <img
-            src='https://res.cloudinary.com/dyca5rldm/image/upload/v1724758773/profile_pic_x4b800.png'
+            src='https://res.cloudinary.com/dyca5rldm/image/upload/v1724791230/Photo_v1fu22.jpg'
             alt='my_image'
             className='w-full h-full object-contain'
           />
@@ -32,10 +32,14 @@ const Info = () => {
             <div className='tracking-wider'>+91-6202888306</div>
           </div>
           {/* TODO */}
-          <div className='text-center flex items-center justify-center gap-4 bg-gray-200 hover:bg-gray-300 py-1 rounded-full w-[190px]'>
+          <a
+            href='https://drive.google.com/file/d/16VLNPRits51wHLVUz7MJ4TijO9sOHKEh/view?usp=drive_link'
+            className='text-center flex items-center justify-center gap-4 bg-gray-200 hover:bg-gray-300 py-1 rounded-full w-[190px]'
+            target='_blank'
+          >
             <div className='text-xl font-bold tracking-wide'>Resume</div>
             <div>{LinkUtils[6].icon}</div>
-          </div>
+          </a>
           <div className='flex gap-6 justify-center items-center'>
             <a
               className='bg-gray-50 rounded-full p-2 hover:bg-gray-300'
