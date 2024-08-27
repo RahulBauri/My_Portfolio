@@ -1,1 +1,1 @@
-export const BACKEND_URL = 'http://localhost:3000/send-email';
+export const BACKEND_URL = 'https://my-portfolio-ey0e.onrender.com/send-email';
