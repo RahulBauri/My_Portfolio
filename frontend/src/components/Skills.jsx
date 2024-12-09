@@ -7,17 +7,17 @@ const Skills = () => {
   return (
     <div
       id='skills'
-      className='flex flex-col items-center bg-gray-200 rounded-lg p-8 mt-[90px]'
+      className='flex flex-col justify-center bg-[var(--bg-gray-200)] rounded-lg p-8 mt-[90px]'
     >
       <Heading title='skills' />
       <div className='p-4 mt-10'>
-        <div className='grid grid-cols-10 gap-x-12 gap-y-8'>
+        <div className='grid grid-cols-10 gap-x-12 gap-y-12'>
           {SkillsUtils.map((skill, index) => {
             return (
               <Skill
                 key={index}
                 name={skill.name}
-                size={80}
+                size={60}
                 absolute={true}
                 pop_up={true}
               >

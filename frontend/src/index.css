@@ -4,13 +4,55 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background-color: white;
+  --text-gray-600: #4b5563;
+  --text-slate-50: #f8fafc;
+  --text-gray-500: #6b7280;
+  --text-gray-100: #f3f4f6;
+  --text-gray-800: #1f2937;
+  --text-blue-800: #1e40af;
+  --text-gray-700: #374151;
+  --text-gray-950: black;
+  --text-red-600: #dc2626;
+  --bg-gray-100: #f3f4f6;
+  --bg-blue-200: #bfdbfe;
+  --bg-gray-50: #f9fafb;
+  --bg-slate-50: #f8fafc;
+  --bg-gray-400: #9ca3af;
+  --bg-gray-950: black;
+  --bg-gray-200: #e5e7eb;
+  --bg-gray-600: #4b5563;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: white;
+  background-color: var(--background-color);
   font-family: 'Space Grotesk', sans-serif;
+}
+
+body.dark-theme {
+  --background-color: black; /* Opposite of white */
+  --text-gray-600: #d1d5db; /* Opposite of #4b5563 */
+  --text-slate-50: #0f172a; /* Opposite of #f8fafc */
+  --text-gray-500: #d1d5db; /* Opposite of #6b7280 */
+  --text-gray-100: #1f2937; /* Opposite of #f3f4f6 */
+  --text-gray-800: #f9fafb; /* Opposite of #1f2937 */
+  --text-blue-800: #bfdbfe; /* Opposite of #1e40af */
+  --text-gray-700: #f3f4f6; /* Opposite of #374151 */
+  --text-gray-950: #f8fafc; /* Opposite of black */
+  --text-red-600: #dc2626; /* Opposite of #dc2626 */
+  --bg-gray-100: #1f2937; /* Opposite of #f3f4f6 */
+  --bg-blue-200: #1e3a8a; /* Opposite of #bfdbfe */
+  --bg-gray-50: #111827; /* Opposite of #f9fafb */
+  --bg-slate-50: #0f172a; /* Opposite of #f8fafc */
+  --bg-gray-400: #6b7280; /* Opposite of #9ca3af */
+  --bg-gray-950: #f8fafc; /* Opposite of black */
+  --bg-gray-200: #374151; /* Opposite of #e5e7eb */
+  --bg-gray-600: #d1d5db; /* Opposite of #4b5563 */
 }
 
 * {

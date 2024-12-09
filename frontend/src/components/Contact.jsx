@@ -70,7 +70,7 @@ const Contact = () => {
           <div className='flex flex-col mb-4'>
             <label
               htmlFor='emailBody'
-              className='text-3xl capitalize tracking-widest font-bold'
+              className='text-3xl capitalize tracking-widest font-bold text-[var(--text-gray-950)]'
             >
               Email body
             </label>
@@ -79,7 +79,7 @@ const Contact = () => {
               name='emailBody'
               placeholder='Body of the email'
               style={{ height: '200px' }}
-              className='bg-gray-100 mt-2 h-16 px-4 py-2 rounded-lg text-xl font-medium hover:border hover:border-gray-900 shadow-xl hover:shadow-2xl border-none'
+              className='bg-[var(--bg-gray-100)] mt-2 h-16 px-4 py-2 rounded-lg text-xl font-medium hover:border hover:border-gray-900 shadow-xl hover:shadow-2xl border-none'
               required
               onChange={(e) =>
                 setInputs({ ...inputs, emailBody: e.target.value })
@@ -87,19 +87,21 @@ const Contact = () => {
               value={inputs.emailBody}
             />
           </div>
-          <div className='bg-blue-200 w-[400px] mx-auto mt-4 px-2 py-4 rounded-md text-center hover:bg-blue-300 hover:border-2 hover:border-blue-900 shadow-xl hover:shadow-2xl flex justify-center items-center'>
+          <div className='bg-[var(--bg-blue-200)] w-[400px] mx-auto mt-4 px-2 py-4 rounded-md text-center hover:bg-blue-300 hover:border-2 hover:border-blue-900 shadow-xl hover:shadow-2xl flex justify-center items-center group'>
             <button
               type='submit'
               className='uppercase text-3xl tracking-widest font-bold flex items-center gap-2'
               disabled={loading}
             >
               {loading ? (
-                <span className='loading loading-dots loading-lg'></span>
+                <span className='loading loading-dots loading-lg text-[var(--text-gray-950)]'></span>
               ) : (
-                <>
-                  send email
+                <div className='flex items-center gap-2'>
+                  <div className='group-hover:text-gray-950 text-[var(--text-gray-950)] '>
+                    send email
+                  </div>
                   <IoIosSend size={30} />
-                </>
+                </div>
               )}
             </button>
           </div>

@@ -20,7 +20,7 @@ const Project = ({
   return (
     <div
       id='project_card'
-      className='bg-slate-50 p-4 rounded-lg'
+      className='bg-[var(--bg-slate-50)] p-4 rounded-lg'
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => {
         setHovered(false);
@@ -45,7 +45,7 @@ const Project = ({
           )}
         </div>
         {hovered && (
-          <div className='absolute top-20 left-24 z-10 text-gray-100 flex gap-6'>
+          <div className='absolute top-20 left-24 z-10 text-[var(--text-gray-100)] flex gap-6'>
             <a
               href={Github_link}
               target='_blank'
@@ -81,12 +81,16 @@ const Project = ({
             })}
           </div>
         </div>
-        <div className='h-[1px] bg-gray-950 mt-8'></div>
+        <div className='h-[1px] bg-[var(--bg-gray-950)] mt-8'></div>
         <div className='mt-2 mb-2 px-4 pb-6 py-2'>
-          <span className='text-xl font-extrabold tracking-tight text-gray-800 mb-2 flex items-center gap-2'>
-            {project_name} <MdOutlineKeyboardDoubleArrowDown size={25} />
+          <span className='text-xl font-extrabold tracking-tight text-[var(--text-gray-800)] mb-2 flex items-center gap-2'>
+            {project_name}
+            <MdOutlineKeyboardDoubleArrowDown
+              size={25}
+              className='bg-gray-50 rounded-full p-1'
+            />
           </span>
-          <p>
+          <p className='text-[var(--text-gray-950)]'>
             {about.map((ab) => {
               if (ab.name === about_name) {
                 if (ab.content.length > 50) {
@@ -101,7 +105,7 @@ const Project = ({
             })}
             <span
               onClick={() => setShowContent(!showContent)}
-              className='text-blue-800 font-medium tracking-normal cursor-pointer hover:underline'
+              className='text-[var(--text-blue-800)] font-medium tracking-normal cursor-pointer hover:underline'
             >
               {!showContent ? 'read more' : 'read less'}
             </span>

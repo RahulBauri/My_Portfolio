@@ -4,25 +4,27 @@ import Project from './Project';
 
 const Projects = () => {
   return (
-    <div id='projects' className='bg-gray-200 rounded-lg p-8 mt-[90px]'>
+    <div
+      id='projects'
+      className='bg-[var(--bg-gray-200)] rounded-lg p-8 mt-[90px]'
+    >
       <Heading title='projects' />
       <div className='grid grid-cols-3 gap-20 p-8'>
         <Project
-          Github_link='https://github.com/RahulBauri/mern-chat-app'
-          Deployed_link='https://mern-chat-app-prod-6kj0.onrender.com/login'
-          project_img='https://res.cloudinary.com/dyca5rldm/image/upload/v1724694507/CHAT-APP_lrhcpt.png'
-          about_name='chat-app'
-          project_name='Real-time CHAT-APP'
+          Github_link='https://github.com/RahulBauri/comfy-store'
+          Deployed_link='https://comfy-store2708.netlify.app/'
+          project_img='https://res.cloudinary.com/dyca5rldm/image/upload/v1724522419/COMFY-STORE.png'
+          about_name='comfy-store'
+          project_name='Comfy-Store'
           skill_array={[
             'HTML',
             'CSS',
             'JS',
             'React',
-            'MongoDB',
-            'Node.js',
-            'Express.js',
             'Tailwind',
-            'Socket.IO',
+            'daisyUI',
+            'react_query',
+            'Redux',
           ]}
         />
         <Project
@@ -43,29 +45,22 @@ const Projects = () => {
           ]}
         />
         <Project
-          Github_link='https://github.com/RahulBauri/comfy-store'
-          Deployed_link='https://comfy-store2708.netlify.app/'
-          project_img='https://res.cloudinary.com/dyca5rldm/image/upload/v1724522419/COMFY-STORE.png'
-          about_name='comfy-store'
-          project_name='Comfy-Store'
+          Github_link='https://github.com/RahulBauri/mern-chat-app'
+          Deployed_link='https://mern-chat-app-prod-6kj0.onrender.com/login'
+          project_img='https://res.cloudinary.com/dyca5rldm/image/upload/v1724694507/CHAT-APP_lrhcpt.png'
+          about_name='chat-app'
+          project_name='Real-time CHAT-APP'
           skill_array={[
             'HTML',
             'CSS',
             'JS',
             'React',
+            'MongoDB',
+            'Node.js',
+            'Express.js',
             'Tailwind',
-            'daisyUI',
-            'react_query',
-            'Redux',
+            'Socket.IO',
           ]}
-        />
-        <Project
-          Github_link='https://github.com/RahulBauri/unsplash-images'
-          Deployed_link='https://unsplash-react-project.netlify.app/'
-          project_img='https://res.cloudinary.com/dyca5rldm/image/upload/v1724522635/UNSPLASH_IMAGES.png'
-          about_name='unsplash-images'
-          project_name='Unsplash-Images'
-          skill_array={['HTML', 'CSS', 'JS', 'React', 'react_query']}
         />
         <Project
           Github_link='https://github.com/RahulBauri/medium_blog_cohort_full'
@@ -101,6 +96,14 @@ const Projects = () => {
             'Mongoose',
             'Tailwind',
           ]}
+        />
+        <Project
+          Github_link='https://github.com/RahulBauri/unsplash-images'
+          Deployed_link='https://unsplash-react-project.netlify.app/'
+          project_img='https://res.cloudinary.com/dyca5rldm/image/upload/v1724522635/UNSPLASH_IMAGES.png'
+          about_name='unsplash-images'
+          project_name='Unsplash-Images'
+          skill_array={['HTML', 'CSS', 'JS', 'React', 'react_query']}
         />
       </div>
     </div>

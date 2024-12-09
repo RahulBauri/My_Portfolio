@@ -10,6 +10,9 @@ export const LinkUtils = [
   { name: 'AWS', icon: <FaAws size={30} /> },
   { name: 'Resume', icon: <IoDocumentText size={30} color='blue' /> },
   { name: 'Email', icon: <MdEmail size={30} color='blue' /> },
-  { name: 'Phone', icon: <IoMdCall size={30} color='blue' /> },
+  {
+    name: 'Phone',
+    icon: <IoMdCall size={30} />,
+  },
   { name: 'Download', icon: <IoMdDownload size={30} color='blue' /> },
 ];
