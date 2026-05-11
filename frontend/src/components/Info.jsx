@@ -36,7 +36,7 @@ const Info = () => {
           </div>
           {/* TODO */}
           <a
-            href='https://drive.google.com/file/d/1xddsCe9GFC5Oh6C3joCEZT6e0501iODF/view'
+            href='https://drive.google.com/file/d/19h_RXLu1E-4B9Do6jtisDLRV0Gj-eCwL/view?usp=drive_link'
             className='text-center flex items-center justify-center gap-4 bg-[var(--bg-gray-200)] hover:bg-gray-300 py-2 rounded-full w-[190px] group'
             target='_blank'
           >

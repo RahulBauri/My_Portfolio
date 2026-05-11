@@ -23,29 +23,31 @@ const Experience = () => {
           </div>
           <div className='timeline-start mb-10 md:text-end text-[var(--text-gray-950)]'>
             <time className='font-mono italic text-[var(--text-gray-950)]'>
-              January 2023 (8 months)
+              Jan 2023 - Sep 2023
             </time>
             <div className='text-lg font-black text-[var(--text-gray-950)]'>
-              Nordea Life & Pension{' '}
+              Employee Workflow Management Portal{' '}
               <span className='italic font-black text-[var(--text-gray-950)]'>
-                (Client Live Project)
+                (Internal Enterprise HR Tool)
               </span>
             </div>
             <ul style={{ 'list-style-type': 'disc' }}>
               <li className='text-[var(--text-gray-950)]'>
-                Analyzed, debugged code and assisted for the existing backend
-                application (Java) for NLPSupply's multiple components.
+                Developed reusable React + TypeScript components for onboarding
+                and approval workflows, improving UI consistency across modules.
               </li>
               <li className='text-[var(--text-gray-950)]'>
-                Successfully identified and resolved issues across various
-                components.
+                Integrated REST APIs using React Query, reducing redundant API
+                calls by ~35% through caching and optimized refetching.
               </li>
               <li className='text-[var(--text-gray-950)]'>
-                Created detailed code flow documentation for the components.
+                Implemented  JWT authentication and Zod-based form validation
+                for secure employee workflows.
               </li>
               <li className='text-[var(--text-gray-950)]'>
-                Engaged with clients to clarify bugs and discuss issues,
-                ensuring solutions met their needs and expectations.
+                Collaborated with backend teams in a Turborepo monorepo
+                environment to deliver sprint-based feature enhancements and bug
+                fixes.
               </li>
             </ul>
           </div>
@@ -69,32 +71,32 @@ const Experience = () => {
           </div>
           <div className='timeline-end mb-10 text-[var(--text-gray-950)]'>
             <time className='font-mono italic text-[var(--text-gray-950)]'>
-              23rd August, 2023 (4 months)
+              Oct 2023 - Aug 2024
             </time>
             <div className='text-lg font-black text-[var(--text-gray-950)]'>
-              EMS{' '}
+              Telepay (Client Live Project){' '}
               <span className='italic font-black text-[var(--text-gray-950)]'>
-                (Internal Project)
+                (Nordea Life & Pension)
               </span>
             </div>
             <ul style={{ 'list-style-type': 'disc' }} className='ml-4'>
               <li className='text-[var(--text-gray-950)]'>
-                Spearheaded the development of a React-based frontend
-                application for an internal employee management system, ensuring
-                a responsive and user-friendly interface using React, Tailwind
-                CSS , and TypeScript .
+                Developed a standalone Java command-line application from
+                scratch to convert Telepay files into their corresponding
+                ISO20022 pain.001.001.03 XML files.
               </li>
               <li className='text-[var(--text-gray-950)]'>
-                Implemented role-based authentication and authorization using
-                JWT and cookies for secure access.
+                Implemented several features and modifications based on client
+                requirements, including handling Excel files.
               </li>
               <li className='text-[var(--text-gray-950)]'>
-                Integrated React Query for efficient data fetching and caching,
-                reducing frontend load times by 30%.
+                Successfully deployed and tested the application on local, test,
+                and pre-production servers.
               </li>
               <li className='text-[var(--text-gray-950)]'>
-                Worked closely with UI/UX designers to implement pixel-perfect
-                designs and improve the overall user experience.
+                Analyzed the output using the Test tool provided by Nordea and
+                optimised the code accordingly to enhance the quality of the XML
+                getting generated.
               </li>
             </ul>
           </div>
@@ -117,32 +119,79 @@ const Experience = () => {
           </div>
           <div className='timeline-start mb-10 md:text-end text-[var(--text-gray-950)]'>
             <time className='font-mono italic text-[var(--text-gray-950)]'>
-              1 January, 2024 (ongoing)
+              Sep 2024 - May 2025
             </time>
             <div className='text-lg font-black text-[var(--text-gray-950)]'>
-              Telepay{' '}
+              Customer Self-Service Insurance Portal{' '}
               <span className='italic font-black text-[var(--text-gray-950)]'>
-                (Client Live Project)
+                (Insurance Domain Client Project)
               </span>
             </div>
             <ul style={{ 'list-style-type': 'disc' }}>
               <li className='text-[var(--text-gray-950)]'>
-                Developed a standalone Java command-line application from
-                scratch to convert Telepay files into their corresponding
-                ISO20022 pain.001.001.03 XML files.
+                Migrated legacy customer portal modules into reusable Next.js
+                and React components, improving maintainability and UI
+                responsiveness.
               </li>
               <li className='text-[var(--text-gray-950)]'>
-                Implemented several features and modifications based on client
-                requirements, including handling Excel files.
+                Developed Node.js and Express APIs for claims and customer
+                profile workflows using PostgreSQL.
               </li>
               <li className='text-[var(--text-gray-950)]'>
-                Successfully deployed and tested the application on local, test,
-                and pre-production servers.
+                Implemented Redux Toolkit and SSR-based rendering, improving
+                dashboard load performance by ~30%
               </li>
               <li className='text-[var(--text-gray-950)]'>
-                Analyzed the output using the Test tool provided by Nordea and
-                optimised the code accordingly to enhance the quality of the XML
-                getting generated.
+                Worked with QA and backend teams to resolve production defects
+                and optimize API integration flows.
+              </li>
+            </ul>
+          </div>
+          <hr />
+        </li>
+        <li>
+          <hr />
+          <div className='timeline-middle'>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              viewBox='0 0 20 20'
+              fill='currentColor'
+              className='h-5 w-5'
+            >
+              <path
+                fillRule='evenodd'
+                d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z'
+                clipRule='evenodd'
+              />
+            </svg>
+          </div>
+          <div className='timeline-end mb-10 text-[var(--text-gray-950)]'>
+            <time className='font-mono italic text-[var(--text-gray-950)]'>
+              Jun 2025 - Present
+            </time>
+            <div className='text-lg font-black text-[var(--text-gray-950)]'>
+              Real-Time Collaboration & Notification Platform{' '}
+              <span className='italic font-black text-[var(--text-gray-950)]'>
+                (Enterprise Communication System)
+              </span>
+            </div>
+            <ul style={{ 'list-style-type': 'disc' }} className='ml-4'>
+              <li className='text-[var(--text-gray-950)]'>
+                Developed WebSocket-based real-time notification and messaging
+                modules for internal enterprise communication systems.
+              </li>
+              <li className='text-[var(--text-gray-950)]'>
+                Built Kafka-based asynchronous event processing workflows and
+                Redis Pub/Sub synchronization mechanisms.
+              </li>
+              <li className='text-[var(--text-gray-950)]'>
+                Optimized PostgreSQL queries and indexing, improving
+                notification retrieval performance by ~40%
+              </li>
+              <li className='text-[var(--text-gray-950)]'>
+                Participated in Docker-based deployments and collaborated with
+                DevOps teams to troubleshoot scaling and connection stability
+                issues.
               </li>
             </ul>
           </div>
